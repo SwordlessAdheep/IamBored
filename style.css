@@ -1,0 +1,44 @@
+body{
+font-family: 'Special Elite', cursive;
+background-color: rgb(251, 183, 158);
+}
+
+.header_div {
+
+background:white;
+color: rgb(144, 255, 157);
+
+}
+
+.header_div img {
+
+width:100px;
+
+}
+
+.main_div {
+
+background:rgb(215, 9, 9);
+padding:10px;
+margin-top:15px;
+border:3px solid white;
+
+}
+
+.main_div label {
+
+background:white;
+width:300px;
+padding:10px;
+margin-bottom:10px;
+box-shadow:5px 5px 18px rgb(60, 59, 59);
+}
+
+#camera {
+
+    border:2px solid white;
+    width:300px;
+    height:200px;
+    box-shadow:5px 5px 18px rgb(0, 0, 0);
+
+}

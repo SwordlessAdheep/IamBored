@@ -1,0 +1,70 @@
+
+<html>
+  <head>
+    <title>MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <center>
+<div class="col-xs-12 header_div">
+
+  <h2> sicko clasifer<img src="logo.gif"> </h2>
+
+</div>
+
+<div class="col-sm-6 col-xs-12 main_div">
+
+  <label>webcam view ----------</label>
+<div id="camera" ></div>
+<button onclick="take_snapshot();" class="btn btn-info"> capture image? (plz give ssn, ip and location to continue></button>
+<input type="text"> 
+</div>
+
+<div class="col-sm-6 col-xs-12 main_div">
+
+  <label>snapshot----------</label>
+<div id="resoolt" ></div>
+<button onclick="check();" class="btn btn-success"> identify image? (plz give minecarft account details, Roblox accoutn detail and steam account details></button>
+<input type="text" > 
+</div>
+
+<div> 
+<center><h3> Microsoft azure:</h3>
+  <span id="MicrosoftAzure_answer">   </span>
+  <h3> Mobilenet: </h3>
+<span id="Mobilenet_answer">  </span>
+
+</center>
+  
+
+</div>
+
+
+    </center>
+
+
+    
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
